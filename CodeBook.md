@@ -94,6 +94,7 @@ The cleaning process performed in the run_analysis function inside the script is
 2. Since the dataset X_train.txt and X_test.txt, we first obtain 10 rows of the dataset, and let R to infer the class of each column (to quicken the data reading process later).
 3. We get the descriptive activity information from activity_labels.txt.
 4. For train and test dataset do the following step:
+
     a. load the 'X_***' file into a table x by specifiying its colClasses from step 2.
     b. subset x to contain only required features (determined from step 1).
     c. give the descriptive names for the columns in x.
