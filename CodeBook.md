@@ -89,6 +89,7 @@ For each combination of activity and subject, the dataset stores the average of 
 
 ### Explanation of the performed transformations to clean up the data
 The cleaning process performed in the run_analysis function inside the script is as follow.
+
 1. We get the index and the name of features that represent the measurements on the mean and standard deviation for each measurement.
 2. Since the dataset X_train.txt and X_test.txt, we first obtain 10 rows of the dataset, and let R to infer the class of each column (to quicken the data reading process later).
 3. We get the descriptive activity information from activity_labels.txt.
